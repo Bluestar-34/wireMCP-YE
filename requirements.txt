@@ -1,0 +1,15 @@
+# Wireshark MCP Server 统一版本依赖
+# 融合 Python 和 Node.js 版本的所有功能
+
+# ASGI 服务器
+uvicorn>=0.20.0
+
+# Web 框架
+starlette>=0.25.0
+
+# HTTP 客户端（用于威胁检测 - URLhaus API）
+httpx>=0.24.0
+
+# 类型注解支持
+typing-extensions>=4.0.0
+
